@@ -68,7 +68,8 @@ function blob_fixup {
         vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
-        vendor/lib*/libmtkcam_stdutils.so)
+        vendor/lib*/libmtkcam_stdutils.so|\
+        vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "$2"
             ;;
         vendor/lib*/libaalservice.so|\
