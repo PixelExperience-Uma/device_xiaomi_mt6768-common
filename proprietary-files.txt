@@ -834,7 +834,6 @@ vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 -system_ext/framework/mediatek-telecom-common.jar:framework/mediatek-telecom-common.jar|686eaf0a472f44194116a0861944483cd9b09a38
 -system_ext/framework/mediatek-telephony-base.jar:framework/mediatek-telephony-base.jar|6248b5b3fcf935ef59ab3c20b0c11a104e8fbe79
 -system_ext/framework/mediatek-telephony-common.jar:framework/mediatek-telephony-common.jar|30b3c95c7938308f930f324cc64b3a0357115d63
--system_ext/priv-app/ImsService/ImsService.apk:priv-app/ImsService/ImsService.apk|e88de927bd1c81f7aea42535f4eccbdf092cce1b
 system_ext/bin/vtservice|eeb08595c53be9d7a69ba5b677b5604f753eab37
 system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
 system_ext/lib64/libcomutils.so|fae6b5fd7628518eaf3e3eadac2133dd83f30839
@@ -853,6 +852,8 @@ system_ext/lib64/libvt_avsync.so|186a5263b1be36e3f5ba47c0e8b40bca48a6b382
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|037d44e408f08b7d0d23cd9a80de26102ae9e856
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|ef998601b41eefe3f981bf773fa34b0445f6ad65
 
+# IMS-System - from plato-user 14 UP1A.230620.001 V816.0.12.0.ULQMIXM release-keys
+-system_ext/priv-app/ImsService/ImsService.apk:priv-app/ImsService/ImsService.apk|7152630aeffffec91056fd216316408e30daf16f
 
 # Power
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
